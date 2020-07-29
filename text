@@ -1,0 +1,10 @@
+Findings and issues.
+
+
+When i try to test testing Error - missing Ursa lib 
+
+iroha/vcpkg/build_iroha_deps.sh
+
+when i run- cmake --build build --target irohav2 -- -j4
+error: ninja: error: 'external/src/hyperledger_ursa_build/target/release/libursa.a', needed by 'external/lib/libursa.a', missing and no known rule to make it
+Iroha Postgres host not is not defined 
